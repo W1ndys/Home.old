@@ -14,7 +14,7 @@ git add .
 printf "${GREEN}INFO ${RESET} 执行 git commit...\n"
 
 # 执行 git commit
-git commit -m "deploy from hexo-admin"
+git commit -m "deploy from W1ndys"
 
 # 提示性语句
 printf "${GREEN}INFO ${RESET} 执行 git push...\n"
