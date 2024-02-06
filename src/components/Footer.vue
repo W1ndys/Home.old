@@ -9,19 +9,21 @@
             -
           </span>
           {{ fullYear }}
-          <a :href="siteUrl">[{{ siteAnthor }}版权所有]&nbsp;</a>
+          <a :href="siteUrl"> Made by {{ siteAnthor }}&nbsp;&amp;&nbsp;</a>
         </span>
         <!-- 以下信息请不要修改哦 -->
         <span class="hidden">
-          <a :href="config.github" target="_blank">
-            {{ config.author }}强力驱动
-          </a>
+          <a :href="config.authorgithub" target="_blank"> {{ config.author }}强力驱动 </a>
+          <!-- <a :href="config.github" target="_blank"> {{ config.author }}强力驱动 </a> -->
         </span>
         <!-- 站点备案 -->
         <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
-          &amp;
+          &nbsp;&amp;&nbsp;
           {{ siteIcp }}
         </a>
+        <a href="https://icp.gov.moe/?keyword=20238661" target="_blank"
+          >&nbsp;&amp;&nbsp;萌ICP备20238661号</a
+        >
       </div>
       <div v-else class="lrc">
         <Transition name="fade" mode="out-in">
