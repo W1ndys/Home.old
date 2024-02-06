@@ -9,13 +9,12 @@
             -
           </span>
           {{ fullYear }}
-          <a :href="siteUrl">{{ siteAnthor }}</a>
+          <a :href="siteUrl">[{{ siteAnthor }}版权所有]&nbsp;</a>
         </span>
         <!-- 以下信息请不要修改哦 -->
         <span class="hidden">
-          &amp;&nbsp;Made&nbsp;by
           <a :href="config.github" target="_blank">
-            {{ config.author }}
+            {{ config.author }}强力驱动
           </a>
         </span>
         <!-- 站点备案 -->
