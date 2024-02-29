@@ -7,7 +7,7 @@
           {{ siteName }}
         </span>
         <span class="tip"> 加载中</span>
-        <span class="tip"> (若长时间停留请退出重进) </span>
+        <span class="tip"> (若长时间加载请刷新或退出重进) </span>
       </div>
     </div>
     <div class="loader-section section-left" />
