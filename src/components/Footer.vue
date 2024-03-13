@@ -16,11 +16,12 @@
           <a :href="config.authorgithub" target="_blank"> {{ config.author }}强力驱动 </a>
           <!-- <a :href="config.github" target="_blank"> {{ config.author }}强力驱动 </a> -->
         </span>
-        <!-- 站点备案 -->
-        <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
+        <!-- 站点备案 --> 
+        <!-- 我备案没了，备案鸡毛 -->
+        <!-- <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
           &nbsp;&amp;&nbsp;
           {{ siteIcp }}
-        </a>
+        </a> -->
         <a href="https://icp.gov.moe/?keyword=20238661" target="_blank"
           >&nbsp;&amp;&nbsp;萌ICP备20238661号</a
         >
