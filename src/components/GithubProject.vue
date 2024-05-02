@@ -44,25 +44,20 @@ import { Pagination, Mousewheel } from "swiper";
 // 仓库数据
 const projectData = [
   {
-    name: "home",
+    name: "Home",
     author: "W1ndys",
     desc: "个人主页，我的个人主页，个人主页源码",
   },
   {
-    name: "Excel-date-update",
+    name: "Blog",
     author: "W1ndys",
-    desc: "🎉 一个简单的Excel班委日期修改脚本",
+    desc: "🎉 W1ndys的个人博客源码",
   },
   {
-    name: "Image-to-Excel",
+    name: "Easy-QFNU",
     author: "W1ndys",
-    desc: "一个简单的假条统计脚本",
-  },
-  {
-    name: "QFNU_music",
-    author: "W1ndys",
-    desc: "用C++演奏校歌",
-  },
+    desc: "Easy-QFNU 是由 W1ndys 开发的一个免费、开源、共建、共享的文档式 Web 网站，W1ndys 联合各学院数位同学共同编辑该站的内容，弥补你的信息差，帮助你更快地找到所需信息，致力于解决你在 QFNU 可能遇到的各种问题。",
+  }
 ];
 
 // 计算网站链接
