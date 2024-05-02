@@ -1,30 +1,32 @@
 # Dev 分支推送部署预览
 ## 仅部署 Win 端
-name: Build Dev
+name: Build
 
 on:
   push:
     branches:
-      - dev
-      - master
-
+      - main
 jobs:
   release:
     name: Build Website
     runs-on: windows-latest
 
     steps:
+
       # 检出 Git 仓库
       - name: Check out git repository
         uses: actions/checkout@v4.1.1
+
       # 安装 Node.js
       - name: Install Node.js
         uses: actions/setup-node@v4.0.0
         with:
-          node-version: "18.x"
+          node-version: "20.x"
+
       # 安装项目依赖
       - name: Install Dependencies
         run: npm install
+
       # 构建程序
       - name: Build Website
         run: npm run build
