@@ -36,7 +36,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: pnpm build
-     
+
       # 上传构建产物
       - name: Add changes to git
         run: |
@@ -45,4 +45,4 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Update docs date #  Change here to the commit message
+          commit_message: 更新dist目录  # 自定义提交信息
