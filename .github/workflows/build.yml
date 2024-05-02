@@ -13,7 +13,7 @@ permissions:
 jobs:
   release:
     name: Build Website
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
 
